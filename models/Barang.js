@@ -12,6 +12,7 @@ const Barang = db.define(
     id_satuan: DataTypes.INTEGER,
     id_kategori: DataTypes.INTEGER,
     upc: DataTypes.STRING,
+    sn: DataTypes.STRING,
     harga_jual: DataTypes.INTEGER,
   },
   {
